@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["aaron@bitium.com"]
   spec.summary       = %q{A Curb adapter for Faraday.}
   spec.description   = %q{Ever wanted to use Faraday with Curb? Now you can.}
-  spec.homepage      = "https://github.com/bitium/faraday-curb"
+  spec.homepage      = "https://github.com/tohae/faraday-curb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
