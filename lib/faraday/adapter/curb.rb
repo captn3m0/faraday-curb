@@ -1,7 +1,9 @@
+require 'faraday'
+require 'curb'
+
 module Faraday
   class Adapter
     class Curb < Faraday::Adapter
-      dependency 'curb'
 
       def call(env)
         super
